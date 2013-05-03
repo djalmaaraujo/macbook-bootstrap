@@ -37,7 +37,7 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 - Install Sublime Text 2 [[Download](http://www.sublimetext.com/2)]
 	- Install package control [[Download](http://wbond.net/sublime_packages/package_control)]
 - Install Sequel Pro [[Download](http://www.sequelpro.com/)]
-- Install ClouApp (App Store)
+- Install Cloud App (App Store)
 
 ### PHP Environment
 #### PHP
@@ -52,3 +52,7 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 * mysql.server start
 * /usr/local/Cellar/mysql/5.5.27/bin/mysqladmin -u root password 'new-password'
 * brew info mysql
+
+
+### Ruby Environment
+- Soon...
