@@ -36,6 +36,8 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 - Install Reeder (App Store)
 - Install Sublime Text 2 [[Download](http://www.sublimetext.com/2)]
 	- Install package control [[Download](http://wbond.net/sublime_packages/package_control)]
+- Install Sequel Pro [[Download](http://www.sequelpro.com/)]
+- Install ClouApp App Store
 
 ### PHP Environment
 #### PHP
