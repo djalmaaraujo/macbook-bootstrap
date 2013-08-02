@@ -14,6 +14,8 @@
 - Install Dropbox [[Download](http://dropbox.com/)]
 - Install 1Password [[Download](https://agilebits.com/onepassword)]
 	- Use archive file from Dropbox
+- Install iTerm.app [[Download](http://www.iterm2.com/#/section/home)]
+- Install Breeze App [[Download](http://www.autumnapps.com/breeze/)]
 
 ### System config
 - Set tap to click in Trackpad (Prefs/Trackpad/Point & Click) [Preview](http://cl.ly/image/3W1B0A1B2d0x)
@@ -38,6 +40,15 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 	- Install package control [[Download](http://wbond.net/sublime_packages/package_control)]
 - Install Sequel Pro [[Download](http://www.sequelpro.com/)]
 - Install Cloud App (App Store)
+- Install Evernote (App Store)
+- Install Alfred 2 [[Download](http://alfredapp.com/)]
+- Install Rdio [[Download](http://rdio.com/)]
+- Install Smartgit [[Download](http://www.syntevo.com/smartgithg/)]
+- Install Flint (App Store)
+- Install Clean my Mac (1Password)
+- Install Type2Phone (App store)
+- Install VirtualBox [[Download](https://www.virtualbox.org/)] (Vm's Backup HD)
+- Install uTorrent [[Download](http://www.utorrent.com/)]
 
 ### PHP Environment
 #### PHP
@@ -55,4 +66,5 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 
 
 ### Ruby Environment
-- Soon...
+- Install RVM  ```\curl -L https://get.rvm.io | bash -s stable```
+- Install forwardhq (tunnel)
