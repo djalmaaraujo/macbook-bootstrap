@@ -8,6 +8,7 @@
   - Install Command line tools (Includes GIT)
 - Change Terminal Shell to **ZSH**
 - Install Homebrew [[Download](http://mxcl.github.io/homebrew/)]
+- Install Node [[Download](http://nodejs.org/)]
 - Copy .ssh folder from the old HD
 - Create ~/dev folder
 - Install dotfiles [[Download](https://github.com/djalmaaraujo/dotfiles)]
@@ -33,9 +34,6 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 - Organize my Finder Favorites like the preview [Preview](http://cl.ly/image/2V3s3I0i3O2n)
 
 ### Other Applications
-- Install Mou App [[Download](http://mouapp.com/)]
-- Install MPlayerX (App Store)
-- Install Reeder (App Store)
 - Install Sublime Text 2 [[Download](http://www.sublimetext.com/2)]
 	- Install package control [[Download](http://wbond.net/sublime_packages/package_control)]
 - Install Sequel Pro [[Download](http://www.sequelpro.com/)]
@@ -49,6 +47,15 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 - Install Type2Phone (App store)
 - Install VirtualBox [[Download](https://www.virtualbox.org/)] (Vm's Backup HD)
 - Install uTorrent [[Download](http://www.utorrent.com/)]
+- Install MPlayerX (App Store)
+
+### Ruby Environment
+- Install RVM  ```\curl -L https://get.rvm.io | bash -s stable```
+- Install forwardhq (tunnel)
+
+### Databases (Not required)
+- Mongo
+- Redis
 
 ### PHP Environment
 #### PHP
@@ -63,8 +70,3 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 * mysql.server start
 * /usr/local/Cellar/mysql/5.5.27/bin/mysqladmin -u root password 'new-password'
 * brew info mysql
-
-
-### Ruby Environment
-- Install RVM  ```\curl -L https://get.rvm.io | bash -s stable```
-- Install forwardhq (tunnel)
