@@ -59,14 +59,18 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 
 ### PHP Environment
 #### PHP
-* brew tap homebrew/dupes
-* brew tap josegonzalez/homebrew-php
-* brew install php54 --with-mysql --wihout-apache
-* brew install php54-memcached php54-apc php54-xdebug
+```bash
+brew tap homebrew/dupes
+brew tap josegonzalez/homebrew-php
+brew install php54 --with-mysql --wihout-apache
+brew install php54-memcached php54-apc php54-xdebug
+```
 
 #### MYSQL
-* brew install mysql
-* mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
-* mysql.server start
-* /usr/local/Cellar/mysql/5.5.27/bin/mysqladmin -u root password 'new-password'
-* brew info mysql
+```bash
+brew install mysql
+mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
+mysql.server start
+/usr/local/Cellar/mysql/5.5.27/bin/mysqladmin -u root password 'new-password'
+brew info mysql
+```
