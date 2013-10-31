@@ -42,7 +42,7 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 - Install Alfred 2 [[Download](http://alfredapp.com/)]
 - Install Rdio [[Download](http://rdio.com/)]
 - Install Smartgit [[Download](http://www.syntevo.com/smartgithg/)]
-- Install Flint (App Store)
+- Install HipChat [[Download](https://www.hipchat.com/)]
 - Install Clean my Mac (1Password)
 - Install Type2Phone (App store)
 - Install VirtualBox [[Download](https://www.virtualbox.org/)] (Vm's Backup HD)
