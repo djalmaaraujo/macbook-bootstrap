@@ -31,6 +31,10 @@
 ```
 defaults write com.apple.Finder AppleShowAllFiles YES
 ```
+- Enable key repeat
+```
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
 - Organize my Finder Favorites like the preview [Preview](http://cl.ly/image/2V3s3I0i3O2n)
 
 ### Other Applications
