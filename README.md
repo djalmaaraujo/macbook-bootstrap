@@ -29,7 +29,7 @@
 - Set all notifications to Banners (It's less confuse) (Prefs/Notifications) [Preview](http://cl.ly/image/2n3N1Q3x2c3N)
 - Show hidden files
 ```
-defaults write com.apple.Finder AppleShowAllFiles YES
+defaults write com.apple.finder AppleShowAllFiles YES
 ```
 - Enable key repeat
 ```
