@@ -52,6 +52,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - Install uTorrent [[Download](http://www.utorrent.com/)]
 - Install VLC (App Store)
 - Adobe Cloud (PS, AI, ETC)
+- Chrome launcher app
 
 ### Ruby Environment
 - Install RBENV  ```brew install rbenv && brew install ruby-build```
