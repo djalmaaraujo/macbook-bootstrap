@@ -38,8 +38,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - Organize my Finder Favorites like the preview [Preview](http://cl.ly/image/2V3s3I0i3O2n)
 
 ### Other Applications
-- Install Sublime Text 2 [[Download](http://www.sublimetext.com/2)]
-	- Install package control [[Download](http://wbond.net/sublime_packages/package_control)]
+- Install Sublime Text 3 [[Download](http://www.sublimetext.com/3)]
 - Install Sequel Pro [[Download](http://www.sequelpro.com/)]
 - Install Cloud App (App Store)
 - Install Evernote (App Store)
@@ -51,24 +50,15 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - Install Type2Phone (App store)
 - Install VirtualBox [[Download](https://www.virtualbox.org/)] (Vm's Backup HD)
 - Install uTorrent [[Download](http://www.utorrent.com/)]
-- Install MPlayerX (App Store)
+- Install VLC (App Store)
 
 ### Ruby Environment
-- Install RVM  ```\curl -L https://get.rvm.io | bash -s stable```
-- Install forwardhq (tunnel)
+- Install RBENV  ```brew install rbenv && brew install ruby-build```
 
 ### Databases (Not required)
 - Mongo
 - Redis
-
-### PHP Environment
-#### PHP
-```bash
-brew tap homebrew/dupes
-brew tap josegonzalez/homebrew-php
-brew install php54 --with-mysql --wihout-apache
-brew install php54-memcached php54-apc php54-xdebug
-```
+- postgres
 
 #### MYSQL
 ```bash
