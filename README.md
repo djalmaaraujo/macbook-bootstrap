@@ -43,6 +43,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - Install VLC (App Store)
 - Adobe Cloud (PS, AI, ETC)
 - Chrome launcher app
+- Install MoneyWiz
+- Install Plex Media Server
 
 ### Ruby Environment
 - Install RVM  [[Download](https://rvm.io/)]
