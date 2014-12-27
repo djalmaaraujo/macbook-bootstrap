@@ -19,14 +19,6 @@
 - Install Breeze App [[Download](http://www.autumnapps.com/breeze/)]
 
 ### System config
-- Set tap to click in Trackpad (Prefs/Trackpad/Point & Click) [Preview](http://cl.ly/image/3W1B0A1B2d0x)
-- Set scrol to natural in Trackpad (Prefs/Trackpad/Scroll & Zoom) [Preview](http://cl.ly/image/2n3N1Q3x2c3N)
-- Change computer name to djalmaaraujo in (Prefs/Sharing) [Preview](http://cl.ly/image/1d260L3n3o2F)
-- Set computer to never sleeps in Power Adapter (Prefs/Energy Saver) [Preview](http://cl.ly/image/3s391f06031r)
-- Enable access for assistive devices in (Prefs/Acessibility) [Preview](http://cl.ly/image/1x0C2i250n29)
-- Configure Mission Control in (Prefs/Mission Control/Hot Corners) [Preview](http://cl.ly/image/0P1z2R1J2X2k)
-- Set All Controls radion button option in (Prefs/Keyboard) [Preview](http://cl.ly/image/1u3H1C1E2U1k)
-- Set all notifications to Banners (It's less confuse) (Prefs/Notifications) [Preview](http://cl.ly/image/2n3N1Q3x2c3N)
 - Show hidden files
 ```
 defaults write com.apple.finder AppleShowAllFiles YES
@@ -40,14 +32,13 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ### Other Applications
 - Install Sublime Text 3 [[Download](http://www.sublimetext.com/3)]
 - Install Sequel Pro [[Download](http://www.sequelpro.com/)]
-- Install Cloud App (App Store)
+- Install Cloud (App Store)
 - Install Evernote (App Store)
 - Install Alfred 2 [[Download](http://alfredapp.com/)]
 - Install Rdio [[Download](http://rdio.com/)]
 - Install Smartgit [[Download](http://www.syntevo.com/smartgithg/)]
 - Install HipChat [[Download](https://www.hipchat.com/)]
 - Install Clean my Mac (1Password)
-- Install Type2Phone (App store)
 - Install VirtualBox [[Download](https://www.virtualbox.org/)] (Vm's Backup HD)
 - Install uTorrent [[Download](http://www.utorrent.com/)]
 - Install VLC (App Store)
@@ -55,7 +46,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - Chrome launcher app
 
 ### Ruby Environment
-- Install RBENV  ```brew install rbenv && brew install ruby-build```
+- Install RVM  [[Download](https://rvm.io/)]
 
 ### Databases (Not required)
 - Mongo
