@@ -6,6 +6,10 @@
 - Mac OS Newest version installed? Check for update
 - Xcode (App Store)
   - Install Command line tools (Includes GIT)
+  ```bash
+  xcode-select --install
+  ```
+
 - Change Terminal Shell to **ZSH**
 - Install Homebrew [[Download](http://mxcl.github.io/homebrew/)]
 - Install Node [[Download](http://nodejs.org/)]
