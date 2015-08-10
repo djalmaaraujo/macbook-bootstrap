@@ -13,9 +13,8 @@
 - Change Terminal Shell to **ZSH**
 - Install Homebrew [[Download](http://mxcl.github.io/homebrew/)]
 - Install Node [[Download](http://nodejs.org/)]
-- Copy .ssh folder from the old HD
 - Create ~/dev folder
-- Install dotfiles [[Download](https://github.com/djalmaaraujo/dotfiles)]
+- Install dotfiles from Bitbucket
 - Install Dropbox [[Download](http://dropbox.com/)]
 - Install 1Password [[Download](https://agilebits.com/onepassword)]
 	- Use archive file from Dropbox
@@ -35,23 +34,24 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ### Other Applications
 - Install Sublime Text 3 [[Download](http://www.sublimetext.com/3)]
-- Install Sequel Pro [[Download](http://www.sequelpro.com/)]
 - Install Droplr (App Store)
 - Install Alfred 2 [[Download](http://alfredapp.com/)]
 - Install Rdio [[Download](http://rdio.com/)]
 - Install Smartgit [[Download](http://www.syntevo.com/smartgithg/)]
 - Install HipChat [[Download](https://www.hipchat.com/)]
-- Install Clean my Mac (1Password)
+- Install Bartender App  [[Download](http://www.macbartender.com/Demo/Bartender.zip)]
 - Install VirtualBox [[Download](https://www.virtualbox.org/)] (Vm's Backup HD)
 - Install uTorrent [[Download](http://www.utorrent.com/)]
 - Install VLC (App Store)
+- Install Beamer App [[Download](http://beamer-app.com/download?cid=275562564.1437688109)]
 - Adobe Cloud (PS, AI, ETC)
 - Chrome launcher app
-- Install MoneyWiz
 - Install Plex Media Server
+- Adobe Creative Cloud
 
 ### Ruby Environment
 - Install RVM  [[Download](https://rvm.io/)]
+- Install N  [[Download](https://github.com/tj/n)]
 
 ### Databases (Not required)
 - Mongo
