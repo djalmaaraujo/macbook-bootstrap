@@ -34,7 +34,6 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ### Other Applications
 - Install Sublime Text 3 [[Download](http://www.sublimetext.com/3)]
-- Install Droplr (App Store)
 - Install Alfred 2 [[Download](http://alfredapp.com/)]
 - Install Rdio [[Download](http://rdio.com/)]
 - Install Smartgit [[Download](http://www.syntevo.com/smartgithg/)]
