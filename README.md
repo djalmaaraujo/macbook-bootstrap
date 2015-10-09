@@ -38,14 +38,14 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - Install Rdio [[Download](http://rdio.com/)]
 - Install Smartgit [[Download](http://www.syntevo.com/smartgithg/)]
 - Install HipChat [[Download](https://www.hipchat.com/)]
-- Install Bartender App  [[Download](http://www.macbartender.com/Demo/Bartender.zip)]
+- Install Bartender 2 App  [[Download](http://www.macbartender.com/Demo/Bartender%202.zip)]
+- Install Slack App  [[Download](https://slack.com/ssb/download-osx)]
 - Install VirtualBox [[Download](https://www.virtualbox.org/)] (Vm's Backup HD)
 - Install uTorrent [[Download](http://www.utorrent.com/)]
 - Install VLC (App Store)
 - Install Beamer App [[Download](http://beamer-app.com/download?cid=275562564.1437688109)]
 - Adobe Cloud (PS, AI, ETC)
 - Chrome launcher app
-- Install Plex Media Server
 - Adobe Creative Cloud
 
 ### Ruby Environment
