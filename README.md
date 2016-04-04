@@ -113,6 +113,17 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock showhidden -bool false
 ```
 
+- Use columns view in all Finder windows by default
+- Four-letter codes for the other view modes: `icnv`, `Nlsv`, `Flwv`
+```bash
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
+```
+
+- Finder: enable AirDrop over Ethernet and on unsupported Macs running Lion
+```bash
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
+```
+
 - Organize my Finder Favorites like the preview [Preview](http://cl.ly/image/2V3s3I0i3O2n)
 
 ### Other Applications
