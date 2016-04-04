@@ -41,6 +41,78 @@ defaults write com.apple.dock static-only -bool TRUE; killall Dock
 defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 0 && defaults write com.apple.dock autohide-time-modifier -float 0.8 && killall Dock
 ```
 
+### Dock
+
+- Dock: enable highlight hover effect for the grid view of a stack
+```bash
+defaults write com.apple.dock mouse-over-hilite-stack -bool true
+```
+
+- Set the icon size of Dock items to 48 pixels
+```bash
+defaults write com.apple.dock tilesize -int 48
+```
+
+- Dock: enable magnification
+```bash
+defaults write com.apple.dock magnification -bool false
+```
+
+- Set magnification icon size to 80 pixels
+```bash
+defaults write com.apple.dock largesize -float 80
+```
+
+- Dock: minimize windows into their application's icon
+```bash
+defaults write com.apple.dock minimize-to-application -bool true
+```
+
+- Dock: enable spring loading for all Dock items
+```bash
+defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
+```
+
+- Dock: enable animation when opening applications
+```bash
+defaults write com.apple.dock launchanim -bool false
+```
+
+- Speed up Mission Control animations
+```bash
+defaults write com.apple.dock expose-animation-duration -float 0.1
+```
+
+- General: enable Dashboard as an overlay
+```bash
+defaults write com.apple.dock dashboard-in-overlay -bool false
+```
+
+- General: automatically rearrange Spaces based on most recent use
+```bash
+defaults write com.apple.dock mru-spaces -bool true
+```
+
+- Remove the auto-hiding Dock delay
+```bash
+defaults write com.apple.dock autohide-delay -float 0
+```
+
+- Speed up animation when hiding/showing the Dock
+```bash
+defaults write com.apple.dock autohide-time-modifier -float 0.3
+```
+
+- Dock: automatically hide and show
+```bash
+defaults write com.apple.dock autohide -bool true
+```
+
+- Dock: make icons of hidden applications translucent
+```bash
+defaults write com.apple.dock showhidden -bool false
+```
+
 - Organize my Finder Favorites like the preview [Preview](http://cl.ly/image/2V3s3I0i3O2n)
 
 ### Other Applications
