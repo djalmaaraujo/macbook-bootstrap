@@ -14,8 +14,10 @@
 - Install Dropbox [[Download](http://dropbox.com/)]
 - Install Homebrew [[Download](http://mxcl.github.io/homebrew/)]
 - Install Node [[Download](http://nodejs.org/)]
+- Install https://github.com/tj/n
 - Create ~/dev folder
 - Install dotfiles from Bitbucket
+- Create symlink from .oh-my-z-shell to dev/me/dotfiles
 - Install 1Password [[Download](https://agilebits.com/onepassword)]
 	- Use archive file from Dropbox
 - Install iTerm.app [[Download](http://www.iterm2.com/#/section/home)]
