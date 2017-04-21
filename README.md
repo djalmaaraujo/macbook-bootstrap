@@ -7,6 +7,8 @@
 - Backup ~/dev
 - Backup ~/prtrello.json
 - Backup MySQL + PGSQL Databases
+- Backup ~/Downloads
+- Backup ~/Desktop
 
 ## Installations
 
