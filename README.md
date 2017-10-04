@@ -6,9 +6,9 @@
 - Backup Windows VM's
 - Backup ~/dev
 - Backup ~/prtrello.json
-- Backup MySQL + PGSQL Databases
+- Backup MySQL + PGSQL Databases (usually I don't care)
 - Backup ~/Downloads
-- Backup ~/Desktop
+- Backup ~/Desktop (should stop using.. but 
 
 ## Installations
 
@@ -39,25 +39,31 @@
 curl -L https://github.com/djalmaaraujo/macbook-bootstrap/raw/master/run-me.sh | sh
 ```
 
-### Other Applications
-- Install VS Code [Download](https://code.visualstudio.com/)
+### Personal
 - Install Spotify [[Download](http://spotify.com/)]
-- Install Smartgit [[Download](http://www.syntevo.com/smartgithg/)]
-- Install Bartender 2 App  [[Download](http://www.macbartender.com/Demo/Bartender%202.zip)]
-- Install VirtualBox [[Download](https://www.virtualbox.org/)] (Vm's Backup HD)
-- Install Beamer App [[Download](http://beamer-app.com/download?cid=275562564.1437688109)]
-- Chrome launcher app
-- Sketch
-- Tunnel Bear
-- Postgres App
-- Screen Hero
 - Fantastical
 - Dollar Value
-- iStats menus5 
 - Caffeine
-- Tunnel Blick
+- NordVPN
 - Reacue Time
 - Display Maid
+
+### Work
+- ~~Install VS Code [Download](https://code.visualstudio.com/)~~ - Using Sublime Again 
+- Install Bartender 3  [[Download](https://www.macbartender.com)]
+- ~~Install Beamer App [[Download](http://beamer-app.com/download?cid=275562564.1437688109)]~~
+- Sketch
+- TunnelBlick
+- Photoshop
+- Android Studio
+
+### Not required
+- ~~ScreenHero~~
+- ~~iStats menus5~~
+- Install VirtualBox [[Download](https://www.virtualbox.org/)] (Vm's Backup HD)
+- Install Smartgit [[Download](http://www.syntevo.com/smartgithg/)]
+- Chrome launcher app
+- Postgres App
 
 ### Ruby/Node Environment
 - Install RVM  [[Download](https://rvm.io/)]
