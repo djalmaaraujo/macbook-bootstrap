@@ -31,6 +31,14 @@
 	```bash
 	ln -s "/Users/cooper/dev/me/dotfiles/plugins/djalma/djalma.plugin.zsh" /Users/cooper/.oh-my-zsh/plugins/djalma/djalma.plugin.zsh
 	```
+- Install Z
+```bash
+# Save this in ~/z.sh
+# Paste . ~/z.sh in .zshrc
+
+https://raw.githubusercontent.com/rupa/z/master/z.sh
+```
+
 - Install 1Password [[Download](https://agilebits.com/onepassword)]
 	- Use archive file from Dropbox
 - Install iTerm.app [[Download](http://www.iterm2.com/#/section/home)]
