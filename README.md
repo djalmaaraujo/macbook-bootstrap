@@ -8,7 +8,7 @@
 - Backup ~/prtrello.json
 - Backup MySQL + PGSQL Databases (usually I don't care)
 - Backup ~/Downloads
-- Backup ~/Desktop (should stop using.. but 
+- Backup ~/Desktop (should stop using.. but)
 
 ## Installations
 
@@ -28,6 +28,9 @@
 - Create ~/dev folder
 - Install dotfiles from Bitbucket
 - Create symlink from .oh-my-z-shell to dev/me/dotfiles
+	```bash
+	ln -s "/Users/cooper/dev/me/dotfiles/plugins/djalma/djalma.plugin.zsh" /Users/cooper/.oh-my-zsh/plugins/djalma/djalma.plugin.zsh
+	```
 - Install 1Password [[Download](https://agilebits.com/onepassword)]
 	- Use archive file from Dropbox
 - Install iTerm.app [[Download](http://www.iterm2.com/#/section/home)]
