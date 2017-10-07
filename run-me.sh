@@ -120,7 +120,7 @@ defaults write com.apple.frameworks.diskimages auto-open-rw-root -bool true
 defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 
 printf "Use columns view in all Finder windows by default\n"
-printf "Four-letter codes for the other view modes: `icnv`, `Nlsv`, `Flwv`\n"
+printf "Four-letter codes for the other view modes: icnv, Nlsv, Flwv\n"
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
 printf "General: enable the warning before emptying the Trash\n"
@@ -131,5 +131,8 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
 printf "Show the ~/Library folder\n"
 chflags nohidden ~/Library
+
+printf "Allow Apps from Anywhere in Gatekeeper for macOS Sierra\n"
+sudo spctl --master-disable
 
 printf "################ 💩 DONE 💩 ################\n\n"
