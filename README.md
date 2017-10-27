@@ -29,7 +29,7 @@
 - Install dotfiles from Bitbucket
 - Create symlink from .oh-my-z-shell to dev/me/dotfiles
 	```bash
-	ln -s "/Users/cooper/dev/me/dotfiles/plugins/djalma/djalma.plugin.zsh" /Users/cooper/.oh-my-zsh/plugins/djalma/djalma.plugin.zsh
+	ln -s "/Users/myuser/dev/me/dotfiles/plugins/djalma/djalma.plugin.zsh" /Users/myuser/.oh-my-zsh/plugins/djalma/djalma.plugin.zsh
 	```
 - Install Z
 ```bash
