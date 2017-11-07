@@ -112,7 +112,8 @@ printf "Remove the spring loading delay for directories\n"
 defaults write NSGlobalDomain com.apple.springing.delay -float 0
 
 printf "General: create .DS_Store files on network volumes\n"
-defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool false
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
 printf "Finder: automatically open a new window when a volume is mounted\n"
 defaults write com.apple.frameworks.diskimages auto-open-ro-root -bool true
@@ -134,5 +135,16 @@ chflags nohidden ~/Library
 
 printf "Allow Apps from Anywhere in Gatekeeper for macOS Sierra\n"
 sudo spctl --master-disable
+
+printf "Use Plain Text Mode as Default\n"
+defaults write com.apple.TextEdit RichText -int 0
+
+printf "Expand Save Panel by Default\n"
+defaults write -g NSNavPanelExpandedStateForSaveMode -bool true && defaults write -g NSNavPanelExpandedStateForSaveMode2 -bool true
+
+
+printf "Full Keyboard Access - All Controls\n"
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
 
 printf "################ 💩 DONE 💩 ################\n\n"
