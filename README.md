@@ -53,25 +53,19 @@ curl -L https://github.com/djalmaaraujo/macbook-bootstrap/raw/master/run-me.sh |
 ### Personal
 - Install Spotify [[Download](http://spotify.com/)]
 - Fantastical
-- Dollar Value
-- Caffeine
+- Amphetamine
 - NordVPN
-- Reacue Time
 - Display Maid
 
 ### Work
-- ~~Install VS Code [Download](https://code.visualstudio.com/)~~ - Using Sublime Again 
+- Install VS Code [Download](https://code.visualstudio.com/)
 - Install Bartender 3  [[Download](https://www.macbartender.com)]
-- ~~Install Beamer App [[Download](http://beamer-app.com/download?cid=275562564.1437688109)]~~
-- Sketch
+- Figma
 - TunnelBlick
-- Photoshop
+- Adobe installer
 - Android Studio
 
 ### Not required
-- ~~ScreenHero~~
-- ~~iStats menus5~~
-- Install VirtualBox [[Download](https://www.virtualbox.org/)] (Vm's Backup HD)
 - Install Smartgit [[Download](http://www.syntevo.com/smartgithg/)]
 - Chrome launcher app
 - Postgres App
