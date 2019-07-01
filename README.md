@@ -22,6 +22,7 @@
 
 - Change Terminal Shell to **ZSH**
 - Install Dropbox [[Download](http://dropbox.com/)]
+- Cloudapp [[Download](https://www.getcloudapp.com/)]
 - Install Homebrew [[Download](http://mxcl.github.io/homebrew/)]
 - Install Node [[Download](http://nodejs.org/)]
 - Install https://github.com/tj/n
