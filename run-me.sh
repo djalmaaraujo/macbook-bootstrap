@@ -5,6 +5,9 @@ defaults write com.apple.finder AppleShowAllFiles YES
 printf "Enable key repeat\n"
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+printf "Remove DS_Stores for good"
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+
 printf "Remove all stupid Dock application\n"
 defaults write com.apple.dock static-only -bool TRUE; killall Dock
 
