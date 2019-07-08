@@ -22,7 +22,7 @@
   ```
 
 - Change Terminal Shell to **ZSH**
-- Install Dropbox [[Download](http://dropbox.com/)]
+- Install Google Drive
 - Cloudapp [[Download](https://www.getcloudapp.com/)]
 - Install Homebrew [[Download](http://mxcl.github.io/homebrew/)]
 - Install Node [[Download](http://nodejs.org/)]
@@ -30,10 +30,13 @@
 - Create ~/dev folder
 - Install dotfiles from Bitbucket
 - Create symlink from .oh-my-z-shell to dev/me/dotfiles
-	```bash
-	ln -s "/Users/myuser/dev/me/dotfiles/plugins/djalma/djalma.plugin.zsh" /Users/myuser/.oh-my-zsh/plugins/djalma/djalma.plugin.zsh
-	```
+
+```bash
+ln -s "/Users/myuser/dev/me/dotfiles/plugins/djalma/djalma.plugin.zsh" /Users/myuser/.oh-my-zsh/plugins/djalma/djalma.plugin.zsh
+```
+
 - Install Z
+
 ```bash
 # Save this in ~/z.sh
 # Paste . ~/z.sh in .zshrc
