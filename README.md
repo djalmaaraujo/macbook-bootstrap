@@ -47,7 +47,8 @@ https://raw.githubusercontent.com/rupa/z/master/z.sh
 - Install 1Password [[Download](https://agilebits.com/onepassword)]
 	- Use archive file from Dropbox
 - Install iTerm.app [[Download](http://www.iterm2.com/#/section/home)]
-- Install Breeze App [[Download](http://www.autumnapps.com/breeze/)]
+- ~Install Breeze App [[Download](http://www.autumnapps.com/breeze/)]~
+- Install spectacleapp [[Download](https://www.spectacleapp.com)]~
 - Organize my Finder Favorites like the preview [Preview](http://cl.ly/image/2V3s3I0i3O2n)
 
 ### System Config
