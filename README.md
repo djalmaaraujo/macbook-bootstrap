@@ -9,6 +9,7 @@
 - Backup MySQL + PGSQL Databases (usually I don't care)
 - Backup ~/Downloads
 - Backup ~/Desktop (should stop using.. but)
+- Backup ~/.aws/
 
 ## Installations
 
