@@ -2,6 +2,7 @@ printf "################ Setting up things ################\n\n"
 
 printf "Show hidden files\n"
 defaults write com.apple.finder AppleShowAllFiles YES
+
 printf "Enable key repeat\n"
 defaults write -g ApplePressAndHoldEnabled -bool false
 
@@ -16,9 +17,6 @@ defaults write com.apple.dock autohide -bool true && defaults write com.apple.do
 
 printf "\n\nDock\n\n"
 
-printf "Dock: enable highlight hover effect for the grid view of a stack\n"
-defaults write com.apple.dock mouse-over-hilite-stack -bool true
-
 printf "Set the icon size of Dock items to 48 pixels\n"
 defaults write com.apple.dock tilesize -int 48
 
@@ -30,21 +28,6 @@ defaults write com.apple.dock largesize -float 80
 
 printf "Dock: minimize windows into their applications icon\n"
 defaults write com.apple.dock minimize-to-application -bool true
-
-printf "Dock: enable spring loading for all Dock items\n"
-defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
-
-printf "Dock: enable animation when opening applications\n"
-defaults write com.apple.dock launchanim -bool false
-
-printf "Speed up Mission Control animations\n"
-defaults write com.apple.dock expose-animation-duration -float 0.1
-
-printf "General: enable Dashboard as an overlay\n"
-defaults write com.apple.dock dashboard-in-overlay -bool false
-
-printf "General: automatically rearrange Spaces based on most recent use\n"
-defaults write com.apple.dock mru-spaces -bool true
 
 printf "Remove the auto-hiding Dock delay\n"
 defaults write com.apple.dock autohide-delay -float 0
@@ -118,11 +101,6 @@ printf "General: create .DS_Store files on network volumes\n"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
-printf "Finder: automatically open a new window when a volume is mounted\n"
-defaults write com.apple.frameworks.diskimages auto-open-ro-root -bool true
-defaults write com.apple.frameworks.diskimages auto-open-rw-root -bool true
-defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
-
 printf "Use columns view in all Finder windows by default\n"
 printf "Four-letter codes for the other view modes: icnv, Nlsv, Flwv\n"
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
@@ -136,15 +114,8 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 printf "Show the ~/Library folder\n"
 chflags nohidden ~/Library
 
-printf "Allow Apps from Anywhere in Gatekeeper for macOS Sierra\n"
-sudo spctl --master-disable
-
 printf "Use Plain Text Mode as Default\n"
 defaults write com.apple.TextEdit RichText -int 0
-
-printf "Expand Save Panel by Default\n"
-defaults write -g NSNavPanelExpandedStateForSaveMode -bool true && defaults write -g NSNavPanelExpandedStateForSaveMode2 -bool true
-
 
 printf "Full Keyboard Access - All Controls\n"
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
